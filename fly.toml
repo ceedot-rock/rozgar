@@ -1,5 +1,5 @@
 # fly.toml — Rozgar demo deployment (Fly.io)
-app = "rozgar-demo"
+app = "rozgar-ceedot"
 primary_region = "ewr"
 
 [build]

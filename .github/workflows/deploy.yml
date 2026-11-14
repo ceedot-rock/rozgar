@@ -1,4 +1,4 @@
-name: Deploy rozgar-demo
+name: Deploy rozgar-ceedot
 
 on:
   push:
@@ -23,6 +23,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
-      - run: flyctl deploy --remote-only --config fly.toml --app rozgar-demo
+      - run: flyctl deploy --remote-only --config fly.toml --app rozgar-ceedot
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
