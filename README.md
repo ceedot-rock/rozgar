@@ -4,7 +4,7 @@ A multi-agent work mesh where young Indians **prove skills, get matched to real 
 
 Built for the **Code for a Billion** hackathon — **Financial Inclusion** track. Apache-2.0.
 
-> **Live demo:** https://rozgar-ceedot.fly.dev/ · **Walkthrough:** https://rozgar-ceedot.fly.dev/demo · **Mesh dashboard:** https://rozgar-ceedot.fly.dev/mesh
+> The public demo host is down. Run the app locally.
 
 ---
 
@@ -108,7 +108,7 @@ Built using AgentFoundry (the official IDE) — agent services scaffolded, itera
 
 ## Deployment
 
-`fly.toml` + `.github/workflows/deploy.yml` ship in this repo. The workflow needs a `FLY_API_TOKEN` repo secret (owner step). App: `rozgar-ceedot`, 256MB, region `ewr` (same as the Rider service). Live at https://rozgar-ceedot.fly.dev/.
+`fly.toml` + `.github/workflows/deploy.yml` ship in this repo. The workflow needs a `FLY_API_TOKEN` repo secret (owner step). App name in `fly.toml` is `rozgar-ceedot`, 256MB, region `ewr`. There is no live public URL.
 
 ## License
 
